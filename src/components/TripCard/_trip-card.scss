@@ -1,0 +1,26 @@
+.card {
+    position: relative;
+    width: 1150px;
+    height: 536px;
+
+    &__title {
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+        @include font(45px, 42px);
+        color: #FFFEF4;
+    }
+
+    &__bubble {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        display: flex;
+        font-family: "Arimo-Bold";
+
+        &__info {
+            @include bubble();
+            @include font(16px, 15px);
+        }
+    }
+}

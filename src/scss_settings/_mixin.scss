@@ -1,0 +1,26 @@
+@mixin font($size, $heught) {
+    font-size: $size;
+    line-height: $heught;
+    letter-spacing: -4%;
+}
+
+@mixin bubble(){
+    box-sizing: border-box;
+    height: 45px;
+    border-radius: 100px;
+    background-color: #FFF59D;
+    padding: 15px 20px;
+    color: #181818;
+    text-transform: uppercase;
+
+}
+
+// &__transport {
+//     font-weight: 700;
+//     @include font(16px, 15px);
+// }
+
+// &__people {
+//     font-weight: 700;
+//     @include font(16px, 15px);
+// }

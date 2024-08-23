@@ -1,0 +1,25 @@
+@import "./scss_settings/reset";
+@import "./scss_settings/mixin";
+
+@import "./components/Heading/heading";
+@import "./components/TripCard/trip-card";
+@import "./components/TripCardList/trip-card-list";
+
+@font-face {
+    font-family: "Arimo-Bold";
+    font-weight: 700;
+    src: url("/src/fonts/Arimo-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Arimo-Regular";
+    font-weight: 400;
+    src: url("/src/fonts/Arimo-Regular.woff2") format("woff2");
+}
+
+body {
+    width: 1150px;
+    background-color: #FFFEF4;
+    padding: 100px 125px;
+    font-family: "Arimo-Regular";
+}
